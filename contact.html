@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slidebar">
+
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="intro.html">My Intro</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div class="contactmain">
+            <div class="ham">
+                <img src="ham.png" alt="" width="23px">
+            </div>
+            <div class="cross">
+                <img src="cross.png" alt="" width="23px">
+            </div>
+            <div class="contactform">
+                <form>
+                    <h1>Contact Me For work or Genral Enquire</h1>
+                    <div class="mb-3">
+                        <label for="exampleInputname" class="form-label">Name<br></label>
+                        <input type="text" class="form-control" id="clientname" aria-describedby="nameHelp">
+                        <label for="exampleInputEmail1" class="form-label"><br><br>Email address<br></label>
+                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your information with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientphone" class="form-label">Phone Number<br></label>
+                      <input type="phone" class="form-control" id="clientphone">
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientphone" class="form-label">Enquire<br></label>
+                      <input type="enquire" class="form-control" id="clientenquire">
+                    </div>
+                    <div class="mb-3" id="form-check">
+                      <input type="checkbox" class="form-check-input" id="isclient">
+                      <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                    </div>
+                    <button type="submit" class="btn-btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

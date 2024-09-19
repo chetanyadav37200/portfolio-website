@@ -1,0 +1,192 @@
+@import url("https://fonts.google.com/specimen/Reddit+Sans+Condensed");
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('2.jpg') no-repeat center center fixed; /* Set your background image */
+    background-size: cover; /* Ensure the background covers the entire page */
+}
+.slidebar{
+    width: 200px;
+    background-color: #c1c7c9;
+    color: white;
+    height: 100vh;
+    transition: transform 0.3s ease;
+    transform: translateX(0);
+}
+.slidebar nav{
+    padding-left: 0;
+    padding-right: 27px;
+    padding-top: 48px;
+    padding-bottom: 75px;
+    width: 250px;
+}
+.slidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 20px;
+}
+.slidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+ /*   background-color: aqua;*/
+    width: 90vw;
+    background-size: auto;
+}
+.container{
+    display: flex;
+    
+}
+.infocontainer{
+/*    background-color: bisque;*/
+    height: 58vh;
+    width: 80vw;
+    margin-top: 37px;
+    margin-left: 82px;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.devPic img{
+    width: 1;
+    height: 58vh;
+}
+.hello{
+    font-size: 80px;
+}
+.name{
+    font-size: 60px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.button button{
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(107, 201, 241);
+    cursor: pointer;
+    margin-top: 20px;
+}
+.button button a{
+    text-decoration: none;
+}
+.button button:hover{
+    background-color: aliceblue;
+}
+.contactform{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.contactform h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mb-3{
+    font-size: 20px;
+    padding: 20px;
+}
+.mb-3form-check{
+    font-size: 20px;
+    padding: 20px;
+}
+#clientemail{
+    /*background-color: rgb(17, 179, 233);*/
+    box border-radius: 20px;
+}
+.form-text{
+    font-size: 15px;
+    color:blue;
+}
+.contactmain{
+    padding-left: 350px;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contactform form div input{
+    border-radius: 8px;
+    padding: 3px;
+    width: 350px;
+}
+.contactform form button{
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(99, 99, 245);
+    cursor: pointer;
+}
+.contactform form button:hover{
+    background-color: aliceblue;
+}
+.contactform form{
+    padding: 20px;
+}
+#form-check{
+flex-direction: row;
+}
+#form-check input{
+    width: 15px;
+}
+.introcontainer{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.devIntro p{
+    font-size: 20px;
+    padding: 10px;
+}
+.myskill{
+    padding-top: 50px;
+}
+.myskill ul{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.myproject{
+    padding-top: 50px;
+}
+.myproject ul{
+    font-size: 20px;
+    padding: 10px;
+    list-style: none;
+}
+.myexpreiance{
+    padding-top: 50px;
+}
+.myexpreiance ul{
+    font-size: 20px;
+    padding: 10px;
+    list-style: none;
+}
+.ham{
+    position: absolute;
+    cursor: pointer;
+    top: 6px;
+    left: 10px;
+}
+.cross{
+    position: absolute;
+    cursor: pointer;
+    top: 6px;
+    left: 178px;
+}
+.slidebarGo{
+    transform: translateX(-100%);
+}
