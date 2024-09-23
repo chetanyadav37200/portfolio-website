@@ -190,3 +190,8 @@ flex-direction: row;
 .slidebarGo{
     transform: translateX(-100%);
 }
+@media (max-width: 768px) {
+    .devPic img {
+        display: none; 
+    }
+}
